@@ -3,13 +3,15 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
-// https://vitejs.dev/config/
+const isProd = process.env.NODE_ENV === "production";
+
 export default defineConfig({
+  base: isProd ? "/Portofolio/" : "/", // ✅ hanya pakai base path saat build
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  assetsInclude: ["**/*.glb"], // ← 🟢 Tambahkan baris ini
+  assetsInclude: ["**/*.glb"],
 });
