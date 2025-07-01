@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "PASLAA",
     description: "Tampilan Mobile Website PASLAA.",
-    image: "/src/assets/Figma.png",
+    image: "/images/Figma.png", // ✅ path diperbaiki
     tags: ["Figma"],
     demoUrl: "#",
     githubUrl: "#",
@@ -15,7 +15,7 @@ const projects = [
     title: "Website Portofolio",
     description:
       "Sedikit Perkenalan Tentang Saya Yang Dituangkan Ke Dalam Website .",
-    image: "/src/assets/Portofolio.png",
+    image: "/images/Portofolio.png", // ✅ path diperbaiki
     tags: ["ReactVite"],
     demoUrl: "#",
     githubUrl: "#",
@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     title: "Website",
     description: "Tampilan Website Biasa.",
-    image: "/projects/project3.png",
+    image: "/projects/project3.png", // ❗Pastikan ini juga ada di public/projects/
     tags: ["HTML", "CSS", "Javasccript"],
     demoUrl: "#",
     githubUrl: "#",
@@ -36,7 +36,6 @@ export const ProjectsSection = () => {
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          {" "}
           My <span className="text-primary"> Projects </span>
         </h2>
 
@@ -62,7 +61,10 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}

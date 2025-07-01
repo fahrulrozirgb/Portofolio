@@ -7,7 +7,7 @@ const educationData = [
     degree: "Pendidikan Dasar",
     year: "2012 – 2018",
     description: "Menyelesaikan pendidikan dasar di SDN 064018.",
-    image: "./src/assets/sdn064018.png",
+    image: "/images/sdn064018.png",
   },
   {
     title: "SMP YPMA (Yayasan Pesantren Modern Adnan)",
@@ -15,7 +15,7 @@ const educationData = [
     year: "2018 – 2021",
     description:
       "Menjalani pendidikan di lingkungan pesantren modern. Belajar disiplin, nilai agama, dan keterampilan hidup.",
-    image: "./src/assets/2.webp",
+    image: "/images/2.webp",
   },
   {
     title: "SMK Muhammadiyah 09 Medan",
@@ -23,7 +23,7 @@ const educationData = [
     year: "2021 – 2024",
     description:
       "Lulus dari jurusan Teknik Mesin. Aktif dalam praktik bengkel, pengelasan, dan tertarik mengembangkan skill di bidang teknologi digital.",
-    image: "./src/assets/smks.png",
+    image: "/images/smks.png",
   },
   {
     title: "Universitas Satya Terra Bhinneka",
@@ -31,7 +31,7 @@ const educationData = [
     year: "2024 – sekarang",
     description:
       "Sedang menempuh pendidikan di bidang Informatika. Fokus pada pengembangan web, UI/UX, dan pemrograman dasar.",
-    image: "./src/assets/satya.png",
+    image: "/images/satya.png",
   },
 ];
 

@@ -4,25 +4,25 @@ const certificates = [
   {
     title: "Piagam Penghargaan",
     platform: "SMK Muhammadiyah 9 Medan",
-    image: "/src/assets/Sertificat1.jpeg",
+    image: "/images/Sertificat1.jpeg", // ✅ path diperbaiki
     description: "Juara 1 Umum.",
   },
   {
     title: "Certificate",
     platform: "Kegiatan Kampus",
-    image: "/src/assets/Sertificat2.jpeg",
+    image: "/images/Sertificat2.jpeg",
     description: "Microsoft Office Specialist.",
   },
   {
     title: "Certificate of Appreciation",
     platform: "Kegiatan Kampus",
-    image: "/src/assets/Sertificat3.jpeg",
+    image: "/images/Sertificat3.jpeg",
     description: "Kuliah Umum Di Kampus.",
   },
   {
     title: "Certificate",
     platform: "Sdg Academy Indonesia",
-    image: "/src/assets/Sertificat4.jpeg",
+    image: "/images/Sertificat4.jpeg",
     description: "Belajar Keragaman Sosial.",
   },
 ];

@@ -48,12 +48,12 @@ export const AboutSection = () => {
 
           <div className="grid grid-cols-1 gap-6">
             <img
-              src="./src/assets/gojek.jpeg"
+              src="/images/gojek.jpeg"
               alt="Foto memakai jaket Gojek"
               className="rounded-xl shadow-md object-cover object-center w-full h-64 scale-75 transition-transform duration-500 ease-in-out hover:scale-[0.78] hover:shadow-[0_0_25px_rgba(124,58,237,0.6)] hover:brightness-110"
             />
             <img
-              src="./src/assets/gojek1.jpeg"
+              src="/images/gojek1.jpeg"
               alt="Foto saat di Honda"
               className="rounded-xl shadow-md object-cover object-center w-full h-64 scale-75 transition-transform duration-500 ease-in-out hover:scale-[0.78] hover:shadow-[0_0_25px_rgba(124,58,237,0.6)] hover:brightness-110 -mt-10"
             />

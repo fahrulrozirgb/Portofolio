@@ -38,7 +38,7 @@ export const HeroSection = () => {
 
           {/* Foto */}
           <img
-            src="/src/assets/ozi2.jpeg"
+            src="/images/ozi2.jpeg"
             alt="Fahrul Rozi Siregar"
             className="object-cover object-center scale-75 z-10 transition-all duration-700 group-hover:scale-[0.78] group-hover:rotate-[1deg]"
           />
